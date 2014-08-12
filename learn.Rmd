@@ -1,0 +1,219 @@
+---
+title: "Episode 1"
+author: "Cole"
+date: "August 8, 2014"
+output: html_document
+---
+
+When you read a delimited file into R, it will become a data.frame.  This lesson will cover common operations performed on data.frames.  A data.frame has rows and columns and names for these rows and columns.  Each column is a vector containing values of a specified type, such as numeric or character values.  Rows or columns may be added (or removed) and data.frames may be merged together.
+
+```{r}
+# create your own data.frame
+x <- data.frame(id=1:3, letter=letters[1:3], value=rnorm(3), even=(1:3)%%2==0)
+x
+nrow(x)
+ncol(x)
+names(x)
+rownames(x)
+str(x)
+```
+
+The following example will read in data projecting the 2014 statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.  The CSV files are actually tab-delimited (there's probably a lesson here on examining your raw data before reading it into R).
+
+```{r}
+setwd(file.path('~','Documents','proj14'))
+k <- read.table('proj_k14.csv', header=TRUE, stringsAsFactors=FALSE)
+qb <- read.table('proj_qb14.csv', header=TRUE, stringsAsFactors=FALSE)
+rb <- read.table('proj_rb14.csv', header=TRUE, stringsAsFactors=FALSE)
+te <- read.table('proj_te14.csv', header=TRUE, stringsAsFactors=FALSE)
+wr <- read.table('proj_wr14.csv', header=TRUE, stringsAsFactors=FALSE)
+
+# generate unique list of column names
+cols <- unique(c(names(k), names(qb), names(rb), names(te), names(wr)))
+
+# create a new column in each data.frame
+# values are recylcled
+# concept: ?Extract
+k[,'pos'] <- 'k'
+qb[,'pos'] <- 'qb'
+rb[,'pos'] <- 'rb'
+te[,'pos'] <- 'te'
+wr[,'pos'] <- 'wr'
+
+# append 'pos' to unique column list
+cols <- c(cols, 'pos')
+
+# create common columns in each data.frame
+# initialize values to zero
+k[,setdiff(cols, names(k))] <- 0
+qb[,setdiff(cols, names(qb))] <- 0
+rb[,setdiff(cols, names(rb))] <- 0
+te[,setdiff(cols, names(te))] <- 0
+wr[,setdiff(cols, names(wr))] <- 0
+
+# combine data.frames by row, using consistent column order
+x <- rbind(k[,cols], qb[,cols], rb[,cols], te[,cols], wr[,cols])
+
+# guess how to combine by column
+
+# rename column names, by removing periods
+# this fails because the period has a special meaning
+sub('.', '', names(x))
+
+# furthermore, gsub does global replacement, not single replacement
+names(x) <- gsub('[.]', '', names(x))
+```
+
+<a name='newcols'/>
+
+```{r}
+# calculate new columns
+# convert NFL stat to fantasy points
+x[,'p_fg'] <- x[,'fg']*4
+x[,'p_xpt'] <- x[,'xpt']*1
+x[,'p_pass_yds'] <- x[,'pass_yds']/25
+x[,'p_pass_tds'] <- x[,'pass_tds']*4
+x[,'p_pass_ints'] <- x[,'pass_ints']*-2
+x[,'p_rush_yds'] <- x[,'rush_yds']/10
+x[,'p_rush_tds'] <- x[,'rush_tds']*6
+x[,'p_fumbles'] <- x[,'fumbles']*-2
+x[,'p_rec_yds'] <- x[,'rec_yds']/20
+x[,'p_rec_tds'] <- x[,'rec_tds']*6
+
+# sum selected column values for every row
+# this is total fantasy points for each player
+x[,'points'] <- rowSums(x[,grep("^p_", names(x))])
+```
+
+With the projected fantasy football points calculated, the data.fame can be used to generate dollar values.
+
+```{r}
+# create new data.frame ordered by points descendingly
+x2 <- x[order(x[,'points'], decreasing=TRUE),]
+
+# which rows contain quarterbacks?
+which(x2[,'pos']=='qb')
+
+# which row contains the 12th best quarterback?
+which(x2[,'pos']=='qb')[12]
+
+# which row contains the 90th best quarterback?
+which(x2[,'pos']=='qb')[90]
+
+# determine the row indeces for each position
+k.ix <- which(x2[,'pos']=='k')
+qb.ix <- which(x2[,'pos']=='qb')
+rb.ix <- which(x2[,'pos']=='rb')
+te.ix <- which(x2[,'pos']=='te')
+wr.ix <- which(x2[,'pos']=='wr')
+```
+
+In this imaginary fantasy football league, there are 12 teams.  Each team is required to draft one kicker, one quarterback, one tight end, two running backs, and three wide receivers (eight players total).  Each team is allowed to spend $200 on these players.  Thus, for quarterbacks, only the top 12 players are required.  The 12th best quarterback should have a marginal value of zero.  The 13th best QB would have a negative value.  A player with a value of zero is worth $1, and all players with non-negative values will be worth at least this much.  The question of interest is to determine the worth of all players with value.
+
+This is calculated with the following formula:
+$(money-nPlayers)\times\frac{marg_i}{\sum_{i=1}^{nPlayers} marg_i}+1 = (12*200-12*8)\times\frac{marg_i}{\sum_{i=1}^{12*8} marg_i}+1$
+
+```{r}
+# calculate marginal points by subtracting "baseline" player's points
+x2[k.ix, 'marg'] <- x2[k.ix,'points'] - x2[k.ix[12],'points']
+x2[qb.ix, 'marg'] <- x2[qb.ix,'points'] - x2[qb.ix[12],'points']
+x2[rb.ix, 'marg'] <- x2[rb.ix,'points'] - x2[rb.ix[24],'points']
+x2[te.ix, 'marg'] <- x2[te.ix,'points'] - x2[te.ix[12],'points']
+x2[wr.ix, 'marg'] <- x2[wr.ix,'points'] - x2[wr.ix[36],'points']
+
+# create a new data.frame subset by non-negative marginal points
+x3 <- x2[x2[,'marg'] >= 0,]
+
+# re-order by marginal points
+x3 <- x3[order(x3[,'marg'], decreasing=TRUE),]
+
+# reset the row names
+rownames(x3) <- NULL
+
+# calculation for player value
+x3[,'value'] <- x3[,'marg']*(12*200-nrow(x))/sum(x3[,'marg']) + 1
+
+# create a data.frame with more interesting columns
+x4 <- x3[,c('PlayerName','pos','points','marg','value')]
+head(x4)
+tail(x4)
+```
+
+Create some simple plots.
+
+```{r}
+hist(x4[,'value'], main='Projected Dollar Value', xlab='$')
+boxplot(value ~ pos, data=x4)
+```
+
+## Extract Examples
+
+More examples of extracting rows and columns from a data.frame.
+
+```{r}
+# select rows by index
+x4[1:3,]
+# select rows by name
+x4[c("10","20","40","80"),]
+# select columns by index, and first 10 rows
+x4[seq(10),c(1,5)]
+# select columns by name, and 5 random rows
+x4[sample(nrow(x4), 5), c('pos','value')]
+# be careful when selecting a single column
+# no longer data.frame, but vector
+x4[seq(5),'PlayerName']
+# maintain data.frame structure
+x4[seq(5),'PlayerName', drop=FALSE]
+# select rows that satisfy condition
+# every 10th row
+x4[seq(nrow(x4))%%10 == 0,]
+# quarterbacks
+x4[x4[,'pos'] == 'qb',]
+# wide receivers or tight ends, but only first 10
+x4[x4[,'pos'] %in% c('wr','te'),][1:10,]
+# same thing, different way
+x4[grep("wr|te", x4[,'pos'])[1:10],]
+# values greater than 35
+x4[x4[,'value'] > 35,]
+# combining conditions with AND
+# running backs with value between 10 and 15
+x4[x4[,'pos'] == 'rb' & x4[,'value'] >= 10 & x4[,'value'] <= 15,]
+# combining conditions with OR
+# rounded value ends in '9' or value is 1
+x4[round(x4[,'value']) %% 10 == 9 | x4[,'value'] == 1,]
+# combining conditions with complicated combinations
+# kickers with value < 6 or tight end with value < 5
+x4[(x4[,'pos'] == 'k' & x4[,'value'] < 6) | (x4[,'pos'] == 'te' & x4[,'value'] < 5),]
+# select columns that match pattern
+x3[seq(10), grep("^p_", names(x3))]
+# select empty data.frame
+x4[FALSE,]
+```
+
+## Iteration: for loop
+
+A for loop allows you to iterate across a sequence.  Typically you will iterate from 1 to n where n is the length of some object (such as a vector).  An experienced R user will learn how to use vectorized operations instead of relying on for loops (for some tasks).
+
+```{r}
+for(i in seq(5)) {
+  print(paste("loop:", i, sep=''))
+}
+```
+
+### Exercise: [redo with for loop](#newcols)
+
+```{r}
+# step 1: build a data.frame with column names and scale values
+# step 2: iterate over rows of data.frame
+# step 3: build new column
+```
+
+## Extracting R code from knitr file
+
+```{r}
+# load knitr package
+library(knitr)
+purl('learn.Rmd', quiet=TRUE)
+```
+
+## What functions should you know?
