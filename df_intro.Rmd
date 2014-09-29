@@ -131,7 +131,7 @@ x3 <- x3[order(x3[,'marg'], decreasing=TRUE),]
 rownames(x3) <- NULL
 
 # calculation for player value
-x3[,'value'] <- x3[,'marg']*(12*200-nrow(x))/sum(x3[,'marg']) + 1
+x3[,'value'] <- x3[,'marg']*(12*200-nrow(x3))/sum(x3[,'marg']) + 1
 
 # create a data.frame with more interesting columns
 x4 <- x3[,c('PlayerName','pos','points','marg','value')]
