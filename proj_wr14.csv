@@ -1,221 +1,221 @@
-"Player Name "	" Team "	"rush_att "	"rush_yds "	"rush_tds "	"rec_att "	"rec_yds "	"rec_tds "	"fumbles "	"fpts "
-"Calvin Johnson"	"DET"	0	0	0	93.8	1578.6	12.1	1	228.5
-"Demaryius Thomas"	"DEN"	0	0	0	94.8	1441.6	12.7	0.5	219.4
-"Julio Jones"	"ATL"	4	35.5	0	92.6	1392.7	10.1	0.5	202.4
-"Dez Bryant"	"DAL"	0.5	4	0	93.9	1314	11.4	1	198.2
-"A.J. Green"	"CIN"	0	0	0	91.2	1315.2	10.5	0	194.5
-"Brandon Marshall"	"CHI"	0	0	0	101.4	1264.1	10.7	0	190.6
-"Jordy Nelson"	"GB"	0	0	0	80	1254.6	10.1	0.5	185.1
-"Alshon Jeffery"	"CHI"	12.5	81	0.5	82.3	1276.5	8	1	184.8
-"Antonio Brown"	"PIT"	6.5	40.5	0	103.5	1366.4	7.5	0.5	184.7
-"Randall Cobb"	"GB"	8.5	94.5	0	86.5	1176.1	7.8	1	171.9
-"Vincent Jackson"	"TB"	0.5	6	0	72.9	1190.7	7.8	0	166.5
-"Andre Johnson"	"HOU"	0	0	0	92.6	1275.1	5.9	0	162.9
-"Larry Fitzgerald"	"ARI"	1	5.5	0	85	1077.8	9	0	162.3
-"Michael Crabtree"	"SF"	0.5	6	0	80.9	1153.5	7.7	1	160.2
-"Keenan Allen"	"SD"	0	0	0	74.9	1077.4	8.3	1	155.5
-"Pierre Garcon"	"WAS"	1	9.5	0	88.1	1187.5	6.1	0.5	155.3
-"Michael Floyd"	"ARI"	0	0	0	76.8	1115.4	6.6	0	151.1
-"Cordarrelle Patterson"	"MIN"	13.5	115.5	1	69.1	928.8	6.7	0	150.6
-"Victor Cruz"	"NYG"	0	0	0	84.2	1099.8	7	1	150
-"Roddy White"	"ATL"	0	0	0	85.6	1089.7	7	0.5	150
-"Wes Welker"	"DEN"	0	0	0	83.4	998.3	8.6	1	149.4
-"Percy Harvin"	"SEA"	20.5	113	1	74.7	917.4	6.1	0.5	144.6
-"Torrey Smith"	"BAL"	2	16.5	0	65.8	1060	6	0.5	142.7
-"DeSean Jackson"	"WAS"	3.5	24	0	59.7	957.9	7.1	0	140.8
-"Jeremy Maclin"	"PHI"	0	0	0	71.7	994.9	6.4	0.5	136.9
-"Mike Wallace"	"MIA"	4.5	38.5	0	71.6	1004.3	5.5	0.5	136.3
-"Julian Edelman"	"NE"	2	17	0	91.2	998.7	5.9	1	135
-"Ty Hilton"	"IND"	4.5	29.5	0	68.4	974.6	5.8	0.5	134.2
-"Marques Colston"	"NO"	0	0	0	76.1	971.7	6.2	0.5	133.4
-"Emmanuel Sanders"	"DEN"	0.5	9.5	0	68.1	960.4	6.2	0.5	133.2
-"Golden Tate"	"DET"	3	25	0	69.1	954.5	6	1	132
-"Kendall Wright"	"TEN"	0.5	4	0	87.9	1043.1	4.6	1	130.3
-"Eric Decker"	"NYJ"	0	0	0	64.1	900.7	6.2	1	125.3
-"Terrance Williams"	"DAL"	2	9.5	0	59.2	885	6.2	1.5	123.7
-"Sammy Watkins"	"BUF"	3.5	21	0	59.9	862.6	5.9	1	121.8
-"Reggie Wayne"	"IND"	0	0	0	69.2	883.7	4.6	0	116
-"Rueben Randle"	"NYG"	0	0	0	57	785	5.7	0.5	111.7
-"Dwayne Bowe"	"KC"	0	0	0	65.9	816.5	4.9	0	111.1
-"Riley Cooper"	"PHI"	0	0	0	51.6	779.5	5.6	0.5	110.6
-"Tavon Austin"	"STL"	12.5	130	1	54.1	675.9	4.3	1.5	109.4
-"Mike Evans"	"TB"	0	0	0	50.9	754.1	5.8	0.5	109.2
-"Marvin Jones"	"CIN"	6	50	0	58.3	749.1	5.3	1.5	108.7
-"Cecil Shorts"	"JAC"	0	0	0	61.1	833.6	4.1	0	108
-"Anquan Boldin"	"SF"	1	7	0	60	802.8	4.5	0.5	107
-"DeAndre Hopkins"	"HOU"	0	0	0	59	793.6	4.5	0.5	105.4
-"Kenny Stills"	"NO"	1.5	12	0	45.4	733.4	5.3	0.5	105.3
-"Brandin Cooks"	"NO"	4.5	26	0	51.9	727.6	5.4	1.5	104.8
-"Hakeem Nicks"	"IND"	0	0	0	50.6	762.9	4.6	0	103.9
-"Brian Hartline"	"MIA"	0	0	0	68.4	916.8	2.3	1	103.5
-"James Jones"	"OAK"	0	0	0	58.1	746.9	4.6	0	102.3
-"Jarrett Boykin"	"GB"	0	0	0	54.1	731.3	5	0.5	102.1
-"Danny Amendola"	"NE"	0	0	0	64.4	749.3	4.8	1	101.7
-"Doug Baldwin"	"SEA"	1	7	0	53.6	733.9	4.3	0.5	98.9
-"Kelvin Benjamin"	"CAR"	0	0	0	47.7	712	4.7	0.5	98.4
-"Harry Douglas"	"ATL"	0	0	0	63.9	786.8	3.3	0.5	97.5
-"Greg Jennings"	"MIN"	0	0	0	59.2	716.6	4.3	0.5	96.5
-"Justin Hunter"	"TEN"	0	0	0	40.4	668.1	4.6	0	94.4
-"Steve Smith"	"BAL"	0	0	0	54.4	694.9	4.5	1.5	93.5
-"Rod Streater"	"OAK"	1	8.5	0	51.4	713.6	4.1	2	92.8
-"Odell Beckham Jr."	"NYG"	3	18	0	43.8	668.9	3.8	0.5	90.5
-"Robert Woods"	"BUF"	2	16	0	49.6	663	3.5	0.5	87.9
-"Andrew Hawkins"	"CLE"	5.5	35	0	53.5	634.8	3.3	0	86.8
-"Jordan Matthews"	"PHI"	0	0	0	42.1	625.3	4	0.5	85.5
-"Jerricho Cotchery"	"CAR"	0	0	0	48.7	634.7	3.8	1.5	83.3
-"Markus Wheaton"	"PIT"	1	8.5	0	43	605.3	3.8	0.5	83.2
-"Chris Givens"	"STL"	2	15.5	0	43.6	644.6	2.9	0.5	82.4
-"Marqise Lee"	"JAC"	1	8.5	0	41.3	602.7	3.8	1	81.9
-"Nate Washington"	"TEN"	0	0	0	43.4	621.1	3.1	0.5	79.7
-"Aaron Dobson"	"NE"	0	0	0	39.6	548.4	3.4	0	75.2
-"Donnie Avery"	"KC"	0	0	0	42.4	584.9	2.6	0	74.2
-"Lance Moore"	"PIT"	0	0	0	45.8	582.7	2.6	0	73.9
-"Jeremy Kerley"	"NYJ"	2.5	9.5	0	44.9	577.6	2.8	1	73.5
-"Mike Williams"	"BUF"	0	0	0	41.4	563.5	3	0.5	73.4
-"Brandon LaFell"	"NE"	1	6	0	35.1	514.6	3.5	0.5	72.1
-"Andre Roberts"	"WAS"	1.5	8.5	0	46.8	540.5	2.9	0.5	71.3
-"Denarius Moore"	"OAK"	0	0	0	34.9	545	3.2	1.5	70.7
-"Nate Burleson"	"CLE"	1	5	0	43.7	521.8	2.9	0	70.1
-"Dexter McCluster"	"TEN"	36.5	163	0	45.5	415.5	2	0	69.9
-"Santonio Holmes"	"FA"	0	0	0	38	497	3	0	67.7
-"Miles Austin"	"CLE"	0	0	0	39.2	514.8	2.8	0.5	67.3
-"Steve Johnson"	"SF"	0	0	0	41.7	530	2.7	1	67.2
-"Ted Ginn Jr."	"ARI"	4	24.5	0	32.8	476.5	2.8	0	66.9
-"Kenny Britt"	"STL"	0	0	0	34.4	498.7	2.8	0.5	65.7
-"Jerome Simpson"	"MIN"	0	0	0	36.3	513.5	2.3	1	63.2
-"Brandon Gibson"	"MIA"	0	0	0	39.5	472.6	2.4	0	61.5
-"Allen Robinson"	"JAC"	0	0	0	31	451.2	2.9	1	60.5
-"Paul Richardson"	"SEA"	0	0	0	23	441.5	2.5	0	59.2
-"Malcom Floyd"	"SD"	0	0	0	29.9	423.4	2.9	0.5	58.7
-"Greg Little"	"OAK"	0	0	0	34.4	470.6	1.9	0	58.3
-"Davante Adams"	"GB"	0	0	0	28.1	416.7	3	1	57.7
-"Martavis Bryant"	"PIT"	0	0	0	26.3	413.1	2.7	0	57.5
-"Kenbrell Thompkins"	"NE"	0	0	0	30	438.3	2.3	0	57.3
-"Brian Quick"	"STL"	0	0	0	28	406.3	2.8	0	57.1
-"Eddie Royal"	"SD"	1.5	6.5	0	39.5	470	1.6	0.5	56.3
-"Junior Hemingway"	"KC"	0	0	0	29.3	380.8	2.8	0	54.6
-"Jacoby Jones"	"BAL"	0	0	0	31.4	419.9	2	0	54
-"Mohamed Sanu"	"CIN"	2.5	12	0	36	371.4	2.4	0	52.7
-"Cole Beasley"	"DAL"	0	0	0	36	386.6	2.1	0	51.3
-"John Brown"	"ARI"	0	0	0	23.9	387.9	1.9	0	50
-"Marquess Wilson"	"CHI"	0	0	0	23.7	342.9	2.6	0	49.9
-"Jason Avant"	"CAR"	0	0	0	31.6	378.3	2.1	0.5	49.4
-"Jerrel Jernigan"	"NYG"	1.5	13	0	23.9	340.8	2.3	0	48.9
-"Marlon Brown"	"BAL"	0	0	0	29	359.3	2	0	47.9
-"Darrius Heyward-Bey"	"PIT"	0	0	0	28	425	1	0.5	47.5
-"Josh Gordon"	"CLE"	0	0	0	22	350	2	0	47
-"Devin Street"	"DAL"	0	0	0	23.5	342.5	2	0	46.3
-"Robert Meachem"	"NO"	0	0	0	18	340	2	0	46
-"Jarvis Landry"	"MIA"	0	0	0	27.1	351.2	1.9	0.5	45.5
-"Marquise Goodwin"	"BUF"	0	0	0	20.8	316.5	2	0.5	42.7
-"Austin Pettis"	"STL"	0	0	0	26.3	288.5	2.2	0	42.1
-"Jermaine Kearse"	"SEA"	0	0	0	20.2	304.2	1.6	0	40
-"Andre Holmes"	"OAK"	0	0	0	19.6	275.2	2	0	39.5
-"Mike Brown"	"JAC"	0	0	0	24	330	1	0	39
-"A.J. Jenkins"	"KC"	1.5	3	0	21.9	309.8	1.2	0	38.5
-"Earl Bennett"	"CLE"	0	0	0	24.8	291.8	1.5	0	38.2
-"Stephen Hill"	"NYJ"	0	0	0	20.5	282.1	1.6	0	37.8
-"Santana Moss"	"WAS"	0	0	0	25.1	295.9	1.5	0.5	37.6
-"Stedman Bailey"	"STL"	0	0	0	21.5	304	1	0	36.4
-"Ace Sanders"	"JAC"	2.5	10.5	0	25.7	273	1.3	0	36.2
-"Vincent Brown"	"SD"	0	0	0	21.4	272.1	1.4	0	35.6
-"Robert Herron"	"TB"	0	0	0	19	286.5	1	0	34.7
-"Tiquan Underwood"	"CAR"	0	0	0	16.3	252.7	1.4	0	33.7
-"Brandon Lloyd"	"SF"	0	0	0	17.8	240.9	1.5	0	33.1
-"Keshawn Martin"	"HOU"	0	0	0	19.9	270.3	1	0	33
-"Kris Durham"	"DET"	0	0	0	20.3	258.1	1.2	0	33
-"Jalen Saunders"	"NYJ"	0	0	0	18.5	237.5	1.5	0	32.8
-"Joseph Morgan"	"NO"	0	0	0	12.1	216.8	1.8	0	32.5
-"Kevin Ogletree"	"DET"	0	0	0	19.5	274.5	0.8	0	32
-"Kevin Norwood"	"SEA"	0	0	0	17.5	252	1	0	31.2
-"Donte Moncrief"	"IND"	0	0	0	14.9	242.5	1.1	0	31
-"Damian Williams"	"FA"	0	0	0	18.9	247.8	1	0	30.8
-"Josh Huff"	"PHI"	0	0	0	15	247.5	1	0	30.8
-"Arrelious Benn"	"PHI"	0	0	0	18	258	0.8	0	30.3
-"Jarius Wright"	"MIN"	0	0	0	16.1	233.1	1.1	0	30.1
-"Travis Benjamin"	"CLE"	0	0	0	15.5	230.5	1.5	1	30.1
-"Cody Latimer"	"DEN"	0	0	0	17.8	228.1	1.2	0	30
-"Chris Owusu"	"TB"	0	0	0	22.6	246.5	0.9	0	29.9
-"Mario Manningham"	"NYG"	0	0	0	17.5	239	1	0	29.9
-"DeVier Posey"	"HOU"	0	0	0	20	243.4	0.9	0	29.7
-"Kyle Williams"	"KC"	0	0	0	16.5	249	0.8	0	29.4
-"Jon Baldwin"	"SF"	0	0	0	18	249	0.8	0	29.4
-"Leonard Hankerson"	"WAS"	0	0	0	18.5	248.5	0.8	0	29.4
-"Jared Abbrederis"	"GB"	0	0	0	17.3	290.3	0	0	29
-"Drew Davis"	"ATL"	0	0	0	16.5	240.9	0.8	0	28.6
-"Jeremy Ross"	"DET"	0	0	0	13.5	221.5	1	0	28.2
-"Andre Caldwell"	"DEN"	0	0	0	18	220.4	1	0	28
-"Jeff Janis"	"GB"	0	0	0	13.5	233.3	0.8	0	27.8
-"T.J. Graham"	"BUF"	1	11	0	15	219.9	0.8	0	27.6
-"Griff Whalen"	"IND"	0	0	0	18.5	215	1	0	27.5
-"Aldrick Robinson"	"WAS"	0	0	0	13.5	205	1	0	26.5
-"Da'Rick Rogers"	"IND"	0	0	0	13.7	178	1.3	0	25.8
-"David Nelson"	"NYJ"	0	0	0	17.6	206.6	0.8	0	25.2
-"Ryan Broyles"	"DET"	0	0	0	15.4	204.4	0.8	0	24.9
-"Weston Dressler"	"KC"	0	0	0	15.8	203.3	0.8	0	24.8
-"Juron Criner"	"OAK"	0	0	0	14	183.5	1	0	24.4
-"Louis Murphy"	"TB"	0	0	0	13.9	198	0.8	0	24.3
-"Jaron Brown"	"ARI"	0	0	0	12	182.3	0.8	0	22.7
-"Josh Morgan"	"CHI"	0	0	0	15	190.5	0.6	0	22.7
-"Rishard Matthews"	"MIA"	0	0	0	14.4	175.6	0.8	0	22.1
-"Tavarres King"	"CAR"	0	0	0	11.3	174	0.8	0	21.9
-"Jacoby Ford"	"NYJ"	0	0	0	15.6	200.3	0.6	1	21.8
-"Darius Johnson"	"ATL"	0	0	0	12.8	165.8	0.8	0	21.1
-"Brice Butler"	"OAK"	0	0	0	10.5	165.8	0.8	0	21.1
-"Bruce Ellington"	"SF"	0	0	0	12	180.5	0.5	0	21.1
-"Quinton Patton"	"SF"	0	0	0	13.5	174	0.8	0.5	20.9
-"Marcus Harris"	"NYG"	0	0	0	8.3	115.5	1.5	0	20.6
-"Derek Moye"	"PIT"	0	0	0	11.3	159	0.8	0	20.4
-"Ricardo Lockette"	"SEA"	0	0	0	13	173	0.5	0	20.3
-"TJ Jones"	"DET"	0	0	0	13	169	0.5	0	19.9
-"Mike Thomas"	"HOU"	0	0	0	12.8	143.3	0.8	0	18.8
-"Charles Johnson"	"CLE"	0	0	0	11.8	163.4	0.4	0	18.6
-"Nick Toon"	"NO"	0	0	0	9.3	150.8	0.5	0	18.1
-"Myles White"	"GB"	0	0	0	10.6	137.9	0.6	0	17.5
-"Dane Sanzenbacher"	"CIN"	0	0	0	11	129.5	0.5	0	16
-"Devin Hester"	"ATL"	0	0	0	7	129.5	0.5	0	16
-"Alan Bonner"	"HOU"	0	0	0	10.5	158.3	0	0	15.8
-"Greg Salas"	"NYJ"	0	0	0	11.3	158.3	0	0	15.8
-"Justin Brown"	"PIT"	0	0	0	9.8	98.3	0.8	0	14.3
-"Dwayne Harris"	"DAL"	0	0	0	10.5	113	0.5	0	14.3
-"Ryan Whalen"	"CIN"	0	0	0	9	110.5	0.5	0	14.1
-"Lavelle Hawkins"	"TB"	0	0	0	11.3	137	0	0	13.7
-"Kealoha Pilares"	"CAR"	0	0	0	8.3	129.8	0	0	13
-"Seyi Ajirotutu"	"SD"	0	0	0	6	84	0.8	0	12.9
-"Josh Boyce"	"NE"	0	0	0	7.5	88.5	0.5	0	11.9
-"Armon Binns"	"MIA"	0	0	0	9	115.5	0	0	11.6
-"Damaris Johnson"	"PHI"	0	0	0	9.4	111.3	0.4	1	11.4
-"Anthony Armstrong"	"CLE"	0	0	0	4.5	64.5	0.8	0	11
-"Tandon Doss"	"JAC"	0	0	0	8.3	108.8	0	0	10.9
-"Rodney Smith"	"MIN"	0	0	0	6.8	99.8	0	0	10
-"Lestar Jean"	"MIN"	0	0	0	6	92.3	0	0	9.2
-"Brenton Bersin"	"CAR"	0	0	0	6.5	89	0	0	8.9
-"Deonte Thompson"	"BAL"	0	0	0	9	86.3	0	0	8.6
-"Brittan Golden"	"ARI"	0	0	0	6	85.5	0	0	8.6
-"Clyde Gates"	"NYJ"	0	0	0	8.3	84	0	0	8.4
-"Kevin Dorsey"	"GB"	0	0	0	6	84	0	0	8.4
-"Naaman Roosevelt"	"DET"	0	0	0	6	83.3	0	0	8.3
-"Adam Thielen"	"MIN"	0	0	0	6.8	82.5	0	0	8.3
-"Chris Hogan"	"BUF"	0	0	0	6	78.8	0	0	7.9
-"Michael Campanaro"	"BAL"	0	0	0	6	73.5	0	0	7.4
-"Jeff Maehl"	"PHI"	0	0	0	6	66.8	0	0	6.7
-"Terrence Toliver"	"CHI"	0	0	0	5.3	65.3	0	0	6.5
-"Ryan Grant"	"WAS"	0	0	0	5.3	65.3	0	0	6.5
-"Marvin McNutt"	"CAR"	0	0	0	3.8	61.5	0	0	6.2
-"Michael Preston"	"TEN"	0	0	0	5.5	60.5	0	0	6.1
-"Eric Weems"	"CHI"	0	0	0	6	58.5	0	0	5.9
-"Andy Tanner"	"NO"	0	0	0	3.8	57	0	0	5.7
-"Tommy Streeter"	"TB"	0	0	0	3.8	57	0	0	5.7
-"Kamar Aiken"	"BAL"	0	0	0	3.8	54.8	0	0	5.5
-"Russell Shepard"	"TB"	0	0	0	4.5	54	0	0	5.4
-"Tevin Reese"	"SD"	0	0	0	3.8	49.5	0	0	5
-"Domenik Hixon"	"CHI"	0	0	0	3.8	45.8	0	0	4.6
-"Brandon Tate"	"CIN"	0	0	0	5.3	65.3	0	1	4.5
-"Brad Smith"	"PHI"	0	0	0	3	40.5	0	0	4.1
-"Pat Edwards"	"DET"	0	0	0	3	39.8	0	0	4
-"Eric Page"	"TB"	0	0	0	3	51	0	0.8	3.6
-"Corey Fuller"	"DET"	0	0	0	2.3	32.3	0	0	3.2
-"Kassim Osgood"	"SF"	0	0	0	2.3	32.3	0	0	3.2
-"Marc Mariani"	"TEN"	0	0	0	2.3	27.8	0	0	2.8
-"Justin Blackmon"	"JAC"	0	0	0	0	0	0	0	0
-"Sidney Rice"	"SEA"	0	0	0	0	0	0	0	0
+"Player.Name.","X.Team.","rush_att.","rush_yds.","rush_tds.","rec_att.","rec_yds.","rec_tds.","fumbles.","fpts."
+"Calvin Johnson","DET",0,0,0,93.8,1578.6,12.1,1,228.5
+"Demaryius Thomas","DEN",0,0,0,94.8,1441.6,12.7,0.5,219.4
+"Julio Jones","ATL",4,35.5,0,92.6,1392.7,10.1,0.5,202.4
+"Dez Bryant","DAL",0.5,4,0,93.9,1314,11.4,1,198.2
+"A.J. Green","CIN",0,0,0,91.2,1315.2,10.5,0,194.5
+"Brandon Marshall","CHI",0,0,0,101.4,1264.1,10.7,0,190.6
+"Jordy Nelson","GB",0,0,0,80,1254.6,10.1,0.5,185.1
+"Alshon Jeffery","CHI",12.5,81,0.5,82.3,1276.5,8,1,184.8
+"Antonio Brown","PIT",6.5,40.5,0,103.5,1366.4,7.5,0.5,184.7
+"Randall Cobb","GB",8.5,94.5,0,86.5,1176.1,7.8,1,171.9
+"Vincent Jackson","TB",0.5,6,0,72.9,1190.7,7.8,0,166.5
+"Andre Johnson","HOU",0,0,0,92.6,1275.1,5.9,0,162.9
+"Larry Fitzgerald","ARI",1,5.5,0,85,1077.8,9,0,162.3
+"Michael Crabtree","SF",0.5,6,0,80.9,1153.5,7.7,1,160.2
+"Keenan Allen","SD",0,0,0,74.9,1077.4,8.3,1,155.5
+"Pierre Garcon","WAS",1,9.5,0,88.1,1187.5,6.1,0.5,155.3
+"Michael Floyd","ARI",0,0,0,76.8,1115.4,6.6,0,151.1
+"Cordarrelle Patterson","MIN",13.5,115.5,1,69.1,928.8,6.7,0,150.6
+"Victor Cruz","NYG",0,0,0,84.2,1099.8,7,1,150
+"Roddy White","ATL",0,0,0,85.6,1089.7,7,0.5,150
+"Wes Welker","DEN",0,0,0,83.4,998.3,8.6,1,149.4
+"Percy Harvin","SEA",20.5,113,1,74.7,917.4,6.1,0.5,144.6
+"Torrey Smith","BAL",2,16.5,0,65.8,1060,6,0.5,142.7
+"DeSean Jackson","WAS",3.5,24,0,59.7,957.9,7.1,0,140.8
+"Jeremy Maclin","PHI",0,0,0,71.7,994.9,6.4,0.5,136.9
+"Mike Wallace","MIA",4.5,38.5,0,71.6,1004.3,5.5,0.5,136.3
+"Julian Edelman","NE",2,17,0,91.2,998.7,5.9,1,135
+"Ty Hilton","IND",4.5,29.5,0,68.4,974.6,5.8,0.5,134.2
+"Marques Colston","NO",0,0,0,76.1,971.7,6.2,0.5,133.4
+"Emmanuel Sanders","DEN",0.5,9.5,0,68.1,960.4,6.2,0.5,133.2
+"Golden Tate","DET",3,25,0,69.1,954.5,6,1,132
+"Kendall Wright","TEN",0.5,4,0,87.9,1043.1,4.6,1,130.3
+"Eric Decker","NYJ",0,0,0,64.1,900.7,6.2,1,125.3
+"Terrance Williams","DAL",2,9.5,0,59.2,885,6.2,1.5,123.7
+"Sammy Watkins","BUF",3.5,21,0,59.9,862.6,5.9,1,121.8
+"Reggie Wayne","IND",0,0,0,69.2,883.7,4.6,0,116
+"Rueben Randle","NYG",0,0,0,57,785,5.7,0.5,111.7
+"Dwayne Bowe","KC",0,0,0,65.9,816.5,4.9,0,111.1
+"Riley Cooper","PHI",0,0,0,51.6,779.5,5.6,0.5,110.6
+"Tavon Austin","STL",12.5,130,1,54.1,675.9,4.3,1.5,109.4
+"Mike Evans","TB",0,0,0,50.9,754.1,5.8,0.5,109.2
+"Marvin Jones","CIN",6,50,0,58.3,749.1,5.3,1.5,108.7
+"Cecil Shorts","JAC",0,0,0,61.1,833.6,4.1,0,108
+"Anquan Boldin","SF",1,7,0,60,802.8,4.5,0.5,107
+"DeAndre Hopkins","HOU",0,0,0,59,793.6,4.5,0.5,105.4
+"Kenny Stills","NO",1.5,12,0,45.4,733.4,5.3,0.5,105.3
+"Brandin Cooks","NO",4.5,26,0,51.9,727.6,5.4,1.5,104.8
+"Hakeem Nicks","IND",0,0,0,50.6,762.9,4.6,0,103.9
+"Brian Hartline","MIA",0,0,0,68.4,916.8,2.3,1,103.5
+"James Jones","OAK",0,0,0,58.1,746.9,4.6,0,102.3
+"Jarrett Boykin","GB",0,0,0,54.1,731.3,5,0.5,102.1
+"Danny Amendola","NE",0,0,0,64.4,749.3,4.8,1,101.7
+"Doug Baldwin","SEA",1,7,0,53.6,733.9,4.3,0.5,98.9
+"Kelvin Benjamin","CAR",0,0,0,47.7,712,4.7,0.5,98.4
+"Harry Douglas","ATL",0,0,0,63.9,786.8,3.3,0.5,97.5
+"Greg Jennings","MIN",0,0,0,59.2,716.6,4.3,0.5,96.5
+"Justin Hunter","TEN",0,0,0,40.4,668.1,4.6,0,94.4
+"Steve Smith","BAL",0,0,0,54.4,694.9,4.5,1.5,93.5
+"Rod Streater","OAK",1,8.5,0,51.4,713.6,4.1,2,92.8
+"Odell Beckham Jr.","NYG",3,18,0,43.8,668.9,3.8,0.5,90.5
+"Robert Woods","BUF",2,16,0,49.6,663,3.5,0.5,87.9
+"Andrew Hawkins","CLE",5.5,35,0,53.5,634.8,3.3,0,86.8
+"Jordan Matthews","PHI",0,0,0,42.1,625.3,4,0.5,85.5
+"Jerricho Cotchery","CAR",0,0,0,48.7,634.7,3.8,1.5,83.3
+"Markus Wheaton","PIT",1,8.5,0,43,605.3,3.8,0.5,83.2
+"Chris Givens","STL",2,15.5,0,43.6,644.6,2.9,0.5,82.4
+"Marqise Lee","JAC",1,8.5,0,41.3,602.7,3.8,1,81.9
+"Nate Washington","TEN",0,0,0,43.4,621.1,3.1,0.5,79.7
+"Aaron Dobson","NE",0,0,0,39.6,548.4,3.4,0,75.2
+"Donnie Avery","KC",0,0,0,42.4,584.9,2.6,0,74.2
+"Lance Moore","PIT",0,0,0,45.8,582.7,2.6,0,73.9
+"Jeremy Kerley","NYJ",2.5,9.5,0,44.9,577.6,2.8,1,73.5
+"Mike Williams","BUF",0,0,0,41.4,563.5,3,0.5,73.4
+"Brandon LaFell","NE",1,6,0,35.1,514.6,3.5,0.5,72.1
+"Andre Roberts","WAS",1.5,8.5,0,46.8,540.5,2.9,0.5,71.3
+"Denarius Moore","OAK",0,0,0,34.9,545,3.2,1.5,70.7
+"Nate Burleson","CLE",1,5,0,43.7,521.8,2.9,0,70.1
+"Dexter McCluster","TEN",36.5,163,0,45.5,415.5,2,0,69.9
+"Santonio Holmes","FA",0,0,0,38,497,3,0,67.7
+"Miles Austin","CLE",0,0,0,39.2,514.8,2.8,0.5,67.3
+"Steve Johnson","SF",0,0,0,41.7,530,2.7,1,67.2
+"Ted Ginn Jr.","ARI",4,24.5,0,32.8,476.5,2.8,0,66.9
+"Kenny Britt","STL",0,0,0,34.4,498.7,2.8,0.5,65.7
+"Jerome Simpson","MIN",0,0,0,36.3,513.5,2.3,1,63.2
+"Brandon Gibson","MIA",0,0,0,39.5,472.6,2.4,0,61.5
+"Allen Robinson","JAC",0,0,0,31,451.2,2.9,1,60.5
+"Paul Richardson","SEA",0,0,0,23,441.5,2.5,0,59.2
+"Malcom Floyd","SD",0,0,0,29.9,423.4,2.9,0.5,58.7
+"Greg Little","OAK",0,0,0,34.4,470.6,1.9,0,58.3
+"Davante Adams","GB",0,0,0,28.1,416.7,3,1,57.7
+"Martavis Bryant","PIT",0,0,0,26.3,413.1,2.7,0,57.5
+"Kenbrell Thompkins","NE",0,0,0,30,438.3,2.3,0,57.3
+"Brian Quick","STL",0,0,0,28,406.3,2.8,0,57.1
+"Eddie Royal","SD",1.5,6.5,0,39.5,470,1.6,0.5,56.3
+"Junior Hemingway","KC",0,0,0,29.3,380.8,2.8,0,54.6
+"Jacoby Jones","BAL",0,0,0,31.4,419.9,2,0,54
+"Mohamed Sanu","CIN",2.5,12,0,36,371.4,2.4,0,52.7
+"Cole Beasley","DAL",0,0,0,36,386.6,2.1,0,51.3
+"John Brown","ARI",0,0,0,23.9,387.9,1.9,0,50
+"Marquess Wilson","CHI",0,0,0,23.7,342.9,2.6,0,49.9
+"Jason Avant","CAR",0,0,0,31.6,378.3,2.1,0.5,49.4
+"Jerrel Jernigan","NYG",1.5,13,0,23.9,340.8,2.3,0,48.9
+"Marlon Brown","BAL",0,0,0,29,359.3,2,0,47.9
+"Darrius Heyward-Bey","PIT",0,0,0,28,425,1,0.5,47.5
+"Josh Gordon","CLE",0,0,0,22,350,2,0,47
+"Devin Street","DAL",0,0,0,23.5,342.5,2,0,46.3
+"Robert Meachem","NO",0,0,0,18,340,2,0,46
+"Jarvis Landry","MIA",0,0,0,27.1,351.2,1.9,0.5,45.5
+"Marquise Goodwin","BUF",0,0,0,20.8,316.5,2,0.5,42.7
+"Austin Pettis","STL",0,0,0,26.3,288.5,2.2,0,42.1
+"Jermaine Kearse","SEA",0,0,0,20.2,304.2,1.6,0,40
+"Andre Holmes","OAK",0,0,0,19.6,275.2,2,0,39.5
+"Mike Brown","JAC",0,0,0,24,330,1,0,39
+"A.J. Jenkins","KC",1.5,3,0,21.9,309.8,1.2,0,38.5
+"Earl Bennett","CLE",0,0,0,24.8,291.8,1.5,0,38.2
+"Stephen Hill","NYJ",0,0,0,20.5,282.1,1.6,0,37.8
+"Santana Moss","WAS",0,0,0,25.1,295.9,1.5,0.5,37.6
+"Stedman Bailey","STL",0,0,0,21.5,304,1,0,36.4
+"Ace Sanders","JAC",2.5,10.5,0,25.7,273,1.3,0,36.2
+"Vincent Brown","SD",0,0,0,21.4,272.1,1.4,0,35.6
+"Robert Herron","TB",0,0,0,19,286.5,1,0,34.7
+"Tiquan Underwood","CAR",0,0,0,16.3,252.7,1.4,0,33.7
+"Brandon Lloyd","SF",0,0,0,17.8,240.9,1.5,0,33.1
+"Keshawn Martin","HOU",0,0,0,19.9,270.3,1,0,33
+"Kris Durham","DET",0,0,0,20.3,258.1,1.2,0,33
+"Jalen Saunders","NYJ",0,0,0,18.5,237.5,1.5,0,32.8
+"Joseph Morgan","NO",0,0,0,12.1,216.8,1.8,0,32.5
+"Kevin Ogletree","DET",0,0,0,19.5,274.5,0.8,0,32
+"Kevin Norwood","SEA",0,0,0,17.5,252,1,0,31.2
+"Donte Moncrief","IND",0,0,0,14.9,242.5,1.1,0,31
+"Damian Williams","FA",0,0,0,18.9,247.8,1,0,30.8
+"Josh Huff","PHI",0,0,0,15,247.5,1,0,30.8
+"Arrelious Benn","PHI",0,0,0,18,258,0.8,0,30.3
+"Jarius Wright","MIN",0,0,0,16.1,233.1,1.1,0,30.1
+"Travis Benjamin","CLE",0,0,0,15.5,230.5,1.5,1,30.1
+"Cody Latimer","DEN",0,0,0,17.8,228.1,1.2,0,30
+"Chris Owusu","TB",0,0,0,22.6,246.5,0.9,0,29.9
+"Mario Manningham","NYG",0,0,0,17.5,239,1,0,29.9
+"DeVier Posey","HOU",0,0,0,20,243.4,0.9,0,29.7
+"Kyle Williams","KC",0,0,0,16.5,249,0.8,0,29.4
+"Jon Baldwin","SF",0,0,0,18,249,0.8,0,29.4
+"Leonard Hankerson","WAS",0,0,0,18.5,248.5,0.8,0,29.4
+"Jared Abbrederis","GB",0,0,0,17.3,290.3,0,0,29
+"Drew Davis","ATL",0,0,0,16.5,240.9,0.8,0,28.6
+"Jeremy Ross","DET",0,0,0,13.5,221.5,1,0,28.2
+"Andre Caldwell","DEN",0,0,0,18,220.4,1,0,28
+"Jeff Janis","GB",0,0,0,13.5,233.3,0.8,0,27.8
+"T.J. Graham","BUF",1,11,0,15,219.9,0.8,0,27.6
+"Griff Whalen","IND",0,0,0,18.5,215,1,0,27.5
+"Aldrick Robinson","WAS",0,0,0,13.5,205,1,0,26.5
+"Da'Rick Rogers","IND",0,0,0,13.7,178,1.3,0,25.8
+"David Nelson","NYJ",0,0,0,17.6,206.6,0.8,0,25.2
+"Ryan Broyles","DET",0,0,0,15.4,204.4,0.8,0,24.9
+"Weston Dressler","KC",0,0,0,15.8,203.3,0.8,0,24.8
+"Juron Criner","OAK",0,0,0,14,183.5,1,0,24.4
+"Louis Murphy","TB",0,0,0,13.9,198,0.8,0,24.3
+"Jaron Brown","ARI",0,0,0,12,182.3,0.8,0,22.7
+"Josh Morgan","CHI",0,0,0,15,190.5,0.6,0,22.7
+"Rishard Matthews","MIA",0,0,0,14.4,175.6,0.8,0,22.1
+"Tavarres King","CAR",0,0,0,11.3,174,0.8,0,21.9
+"Jacoby Ford","NYJ",0,0,0,15.6,200.3,0.6,1,21.8
+"Darius Johnson","ATL",0,0,0,12.8,165.8,0.8,0,21.1
+"Brice Butler","OAK",0,0,0,10.5,165.8,0.8,0,21.1
+"Bruce Ellington","SF",0,0,0,12,180.5,0.5,0,21.1
+"Quinton Patton","SF",0,0,0,13.5,174,0.8,0.5,20.9
+"Marcus Harris","NYG",0,0,0,8.3,115.5,1.5,0,20.6
+"Derek Moye","PIT",0,0,0,11.3,159,0.8,0,20.4
+"Ricardo Lockette","SEA",0,0,0,13,173,0.5,0,20.3
+"TJ Jones","DET",0,0,0,13,169,0.5,0,19.9
+"Mike Thomas","HOU",0,0,0,12.8,143.3,0.8,0,18.8
+"Charles Johnson","CLE",0,0,0,11.8,163.4,0.4,0,18.6
+"Nick Toon","NO",0,0,0,9.3,150.8,0.5,0,18.1
+"Myles White","GB",0,0,0,10.6,137.9,0.6,0,17.5
+"Dane Sanzenbacher","CIN",0,0,0,11,129.5,0.5,0,16
+"Devin Hester","ATL",0,0,0,7,129.5,0.5,0,16
+"Alan Bonner","HOU",0,0,0,10.5,158.3,0,0,15.8
+"Greg Salas","NYJ",0,0,0,11.3,158.3,0,0,15.8
+"Justin Brown","PIT",0,0,0,9.8,98.3,0.8,0,14.3
+"Dwayne Harris","DAL",0,0,0,10.5,113,0.5,0,14.3
+"Ryan Whalen","CIN",0,0,0,9,110.5,0.5,0,14.1
+"Lavelle Hawkins","TB",0,0,0,11.3,137,0,0,13.7
+"Kealoha Pilares","CAR",0,0,0,8.3,129.8,0,0,13
+"Seyi Ajirotutu","SD",0,0,0,6,84,0.8,0,12.9
+"Josh Boyce","NE",0,0,0,7.5,88.5,0.5,0,11.9
+"Armon Binns","MIA",0,0,0,9,115.5,0,0,11.6
+"Damaris Johnson","PHI",0,0,0,9.4,111.3,0.4,1,11.4
+"Anthony Armstrong","CLE",0,0,0,4.5,64.5,0.8,0,11
+"Tandon Doss","JAC",0,0,0,8.3,108.8,0,0,10.9
+"Rodney Smith","MIN",0,0,0,6.8,99.8,0,0,10
+"Lestar Jean","MIN",0,0,0,6,92.3,0,0,9.2
+"Brenton Bersin","CAR",0,0,0,6.5,89,0,0,8.9
+"Deonte Thompson","BAL",0,0,0,9,86.3,0,0,8.6
+"Brittan Golden","ARI",0,0,0,6,85.5,0,0,8.6
+"Clyde Gates","NYJ",0,0,0,8.3,84,0,0,8.4
+"Kevin Dorsey","GB",0,0,0,6,84,0,0,8.4
+"Naaman Roosevelt","DET",0,0,0,6,83.3,0,0,8.3
+"Adam Thielen","MIN",0,0,0,6.8,82.5,0,0,8.3
+"Chris Hogan","BUF",0,0,0,6,78.8,0,0,7.9
+"Michael Campanaro","BAL",0,0,0,6,73.5,0,0,7.4
+"Jeff Maehl","PHI",0,0,0,6,66.8,0,0,6.7
+"Terrence Toliver","CHI",0,0,0,5.3,65.3,0,0,6.5
+"Ryan Grant","WAS",0,0,0,5.3,65.3,0,0,6.5
+"Marvin McNutt","CAR",0,0,0,3.8,61.5,0,0,6.2
+"Michael Preston","TEN",0,0,0,5.5,60.5,0,0,6.1
+"Eric Weems","CHI",0,0,0,6,58.5,0,0,5.9
+"Andy Tanner","NO",0,0,0,3.8,57,0,0,5.7
+"Tommy Streeter","TB",0,0,0,3.8,57,0,0,5.7
+"Kamar Aiken","BAL",0,0,0,3.8,54.8,0,0,5.5
+"Russell Shepard","TB",0,0,0,4.5,54,0,0,5.4
+"Tevin Reese","SD",0,0,0,3.8,49.5,0,0,5
+"Domenik Hixon","CHI",0,0,0,3.8,45.8,0,0,4.6
+"Brandon Tate","CIN",0,0,0,5.3,65.3,0,1,4.5
+"Brad Smith","PHI",0,0,0,3,40.5,0,0,4.1
+"Pat Edwards","DET",0,0,0,3,39.8,0,0,4
+"Eric Page","TB",0,0,0,3,51,0,0.8,3.6
+"Corey Fuller","DET",0,0,0,2.3,32.3,0,0,3.2
+"Kassim Osgood","SF",0,0,0,2.3,32.3,0,0,3.2
+"Marc Mariani","TEN",0,0,0,2.3,27.8,0,0,2.8
+"Justin Blackmon","JAC",0,0,0,0,0,0,0,0
+"Sidney Rice","SEA",0,0,0,0,0,0,0,0
