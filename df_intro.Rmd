@@ -21,12 +21,12 @@ str(x)
 The following example will read in data projecting the 2014 statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
 
 ```{r}
-setwd(file.path('~','Documents','football-values'))
-k <- read.csv('proj_k14.csv', header=TRUE, stringsAsFactors=FALSE)
-qb <- read.csv('proj_qb14.csv', header=TRUE, stringsAsFactors=FALSE)
-rb <- read.csv('proj_rb14.csv', header=TRUE, stringsAsFactors=FALSE)
-te <- read.csv('proj_te14.csv', header=TRUE, stringsAsFactors=FALSE)
-wr <- read.csv('proj_wr14.csv', header=TRUE, stringsAsFactors=FALSE)
+setwd(file.path('~','Documents','football-values','2015'))
+k <- read.csv('proj_k15.csv', header=TRUE, stringsAsFactors=FALSE)
+qb <- read.csv('proj_qb15.csv', header=TRUE, stringsAsFactors=FALSE)
+rb <- read.csv('proj_rb15.csv', header=TRUE, stringsAsFactors=FALSE)
+te <- read.csv('proj_te15.csv', header=TRUE, stringsAsFactors=FALSE)
+wr <- read.csv('proj_wr15.csv', header=TRUE, stringsAsFactors=FALSE)
 
 # generate unique list of column names
 cols <- unique(c(names(k), names(qb), names(rb), names(te), names(wr)))
@@ -55,13 +55,6 @@ wr[,setdiff(cols, names(wr))] <- 0
 x <- rbind(k[,cols], qb[,cols], rb[,cols], te[,cols], wr[,cols])
 
 # guess how to combine by column
-
-# rename column names, by removing periods
-# this fails because the period has a special meaning
-sub('.', '', names(x))
-
-# furthermore, gsub does global replacement, not single replacement
-names(x) <- gsub('[.]', '', names(x))
 ```
 
 <a name='newcols'/>
