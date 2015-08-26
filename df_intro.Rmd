@@ -1,7 +1,7 @@
 ---
 title: "Data Frame Intro Through Fantasy Football"
 author: "Cole"
-date: "August 26, 2014"
+date: "August 27, 2015"
 output: pdf_document
 ---
 
@@ -16,17 +16,17 @@ ncol(x)
 names(x)
 rownames(x)
 str(x)
+year <- 2015
 ```
 
-The following example will read in data projecting the 2014 statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
+The following example will read in data projecting the `r year` statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
 
 ```{r}
-setwd(file.path('~','Documents','football-values','2015'))
-k <- read.csv('proj_k15.csv', header=TRUE, stringsAsFactors=FALSE)
-qb <- read.csv('proj_qb15.csv', header=TRUE, stringsAsFactors=FALSE)
-rb <- read.csv('proj_rb15.csv', header=TRUE, stringsAsFactors=FALSE)
-te <- read.csv('proj_te15.csv', header=TRUE, stringsAsFactors=FALSE)
-wr <- read.csv('proj_wr15.csv', header=TRUE, stringsAsFactors=FALSE)
+k <- read.csv(file.path(year,'proj_k15.csv'), header=TRUE, stringsAsFactors=FALSE)
+qb <- read.csv(file.path(year,'proj_qb15.csv'), header=TRUE, stringsAsFactors=FALSE)
+rb <- read.csv(file.path(year,'proj_rb15.csv'), header=TRUE, stringsAsFactors=FALSE)
+te <- read.csv(file.path(year,'proj_te15.csv'), header=TRUE, stringsAsFactors=FALSE)
+wr <- read.csv(file.path(year,'proj_wr15.csv'), header=TRUE, stringsAsFactors=FALSE)
 
 # generate unique list of column names
 cols <- unique(c(names(k), names(qb), names(rb), names(te), names(wr)))
@@ -101,9 +101,19 @@ te.ix <- which(x2[,'pos']=='te')
 wr.ix <- which(x2[,'pos']=='wr')
 ```
 
-In this imaginary fantasy football league, there are 12 teams.  Each team is required to draft one kicker, one quarterback, one tight end, two running backs, and three wide receivers (eight players total).  Each team is allowed to spend $200 on these players.  Thus, for quarterbacks, only the top 12 players are required.  The 12th best quarterback should have a marginal value of zero.  The 13th best QB would have a negative value.  A player with a value of zero is worth $1, and all players with non-negative values will be worth at least this much.  The question of interest is to determine the worth of all players with value.
+In this imaginary fantasy football league, there are 12 teams.  Each
+team is required to draft one kicker, one quarterback, one tight end,
+two running backs, and three wide receivers (eight players total).
+Each team is allowed to spend $200 on these players.  Thus, for
+quarterbacks, only the top 12 players are required.  The 12th best
+quarterback should have a marginal value of zero.  The 13th best QB
+would have a negative value.  A player with a value of zero is worth
+$1, and all players with non-negative values will be worth at least
+this much.  The question of interest is to determine the worth of all
+players with value.
 
 This is calculated with the following formula:
+
 $(money-nPlayers)\times\frac{marg_i}{\sum_{i=1}^{nPlayers} marg_i}+1 = (12*200-12*8)\times\frac{marg_i}{\sum_{i=1}^{12*8} marg_i}+1$
 
 ```{r}
