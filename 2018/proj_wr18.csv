@@ -1,4 +1,4 @@
-PlayerName,Team,rush_att,rush_yds,rush_tds,rec_att,rec_yds,rec_tds,fumbles,fpts
+PlayerName,Team,rec_att,rec_yds,rec_tds,rush_att,rush_yds,rush_tds,fumbles,fpts
 Antonio Brown,PIT,105.1,1477.7,10.2,0.3,1.2,0,0.3,208.8
 DeAndre Hopkins,HOU,93.5,1311.2,9.5,0,0,0,0.6,186.9
 Julio Jones,ATL,94,1437.7,7,0.9,8.9,0,0.3,186.4
