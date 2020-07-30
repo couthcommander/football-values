@@ -1,7 +1,7 @@
 ---
 title: "Data Frame Intro Through Fantasy Football"
 author: "Cole"
-date: "August 22, 2019"
+date: "August 25, 2020"
 output: pdf_document
 ---
 
@@ -16,7 +16,7 @@ ncol(x)
 names(x)
 rownames(x)
 str(x)
-year <- 2019
+year <- 2020
 ```
 
 The following example will read in data projecting the `r year` statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
@@ -27,10 +27,10 @@ csvfile <- paste('proj_', positions, substr(year, 3, 4), '.csv', sep='')
 files <- file.path(year, csvfile)
 names(files) <- positions
 k <- read.csv(files['k'], header=TRUE, stringsAsFactors=FALSE)
-qb <- read.csv(files['qb'], header=TRUE, stringsAsFactors=FALSE)
-rb <- read.csv(files['rb'], header=TRUE, stringsAsFactors=FALSE)
-te <- read.csv(files['te'], header=TRUE, stringsAsFactors=FALSE)
-wr <- read.csv(files['wr'], header=TRUE, stringsAsFactors=FALSE)
+qb <- read.csv(files['qb'], stringsAsFactors=FALSE)
+rb <- read.csv(files['rb'])
+te <- read.csv(files['te'])
+wr <- read.csv(files['wr'])
 
 # generate unique list of column names
 cols <- unique(c(names(k), names(qb), names(rb), names(te), names(wr)))
