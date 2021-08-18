@@ -1,9 +1,13 @@
 ---
 title: "Data Frame Intro Through Fantasy Football"
 author: "Cole"
-date: "August 25, 2020"
+date: "August 26, 2021"
 output: pdf_document
 ---
+
+```{r, echo=FALSE}
+options(width = 90)
+```
 
 When you read a delimited file into R, it will become a data.frame.  This lesson will cover common operations performed on data.frames.  A data.frame has rows and columns and names for these rows and columns.  Each column is a vector containing values of a specified type, such as numeric or character values.  Rows or columns may be added (or removed) and data.frames may be merged together.
 
@@ -16,7 +20,7 @@ ncol(x)
 names(x)
 rownames(x)
 str(x)
-year <- 2020
+year <- 2021
 ```
 
 The following example will read in data projecting the `r year` statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
@@ -138,7 +142,7 @@ x3 <- x3[order(x3[,'marg'], decreasing=TRUE),]
 rownames(x3) <- NULL
 
 # calculation for player value
-x3[,'value'] <- x3[,'marg']*(12*200-nrow(x3))/sum(x3[,'marg']) + 1
+x3[,'value'] <- (12*200-nrow(x3)) * x3[,'marg'] / sum(x3[,'marg']) + 1
 
 # create a data.frame with more interesting columns
 x4 <- x3[,c('PlayerName','pos','points','marg','value')]
@@ -180,17 +184,17 @@ x4[x4[,'pos'] == 'qb',]
 x4[x4[,'pos'] %in% c('wr','te'),][1:10,]
 # same thing, different way
 x4[grep("wr|te", x4[,'pos'])[1:10],]
-# values greater than 35
-x4[x4[,'value'] > 35,]
+# values greater than 45
+x4[x4[,'value'] > 45,]
 # combining conditions with AND
 # running backs with value between 10 and 15
-x4[x4[,'pos'] == 'rb' & x4[,'value'] >= 10 & x4[,'value'] <= 15,]
+x4[x4[,'pos'] == 'rb' & x4[,'value'] >= 20 & x4[,'value'] <= 25,]
 # combining conditions with OR
 # rounded value ends in '9' or value is 1
 x4[round(x4[,'value']) %% 10 == 9 | x4[,'value'] == 1,]
 # combining conditions with complicated combinations
-# kickers with value < 6 or tight end with value < 5
-x4[(x4[,'pos'] == 'k' & x4[,'value'] < 6) | (x4[,'pos'] == 'te' & x4[,'value'] < 5),]
+# kickers with value > 6 or tight end with value < 5
+x4[(x4[,'pos'] == 'k' & x4[,'value'] > 6) | (x4[,'pos'] == 'te' & x4[,'value'] < 5),]
 # select columns that match pattern
 x3[seq(10), grep("^p_", names(x3))]
 # select empty data.frame
