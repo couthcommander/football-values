@@ -11,6 +11,6 @@ Here's a simple way to download this repository:
 
 ```
 tf <- tempfile()
-download.file("https://github.com/couthcommander/football-values/archive/refs/heads/master.zip", tf)
+download.file("https://github.com/couthcommander/football-values/archive/refs/heads/main.zip", tf)
 unzip(tf)
 ```
