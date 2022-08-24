@@ -1,7 +1,7 @@
 ---
 title: "Data Frame Intro Through Fantasy Football"
 author: "Cole"
-date: "August 26, 2021"
+date: "August 25, 2022"
 output: pdf_document
 ---
 
@@ -20,7 +20,7 @@ ncol(x)
 names(x)
 rownames(x)
 str(x)
-year <- 2021
+year <- 2022
 ```
 
 The following example will read in data projecting the `r year` statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
