@@ -3,6 +3,6 @@
 .RData
 fix_data
 df_intro.R
-df_intro.pdf
+*html
+*pdf
 py/
-

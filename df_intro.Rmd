@@ -1,12 +1,16 @@
 ---
 title: "Data Frame Intro Through Fantasy Football"
 author: "Cole"
-date: "August 25, 2022"
+date: "August 24, 2023"
 output: pdf_document
+params:
+  year: 2023
 ---
 
-```{r, echo=FALSE}
+```{r}
+#| echo: FALSE
 options(width = 90)
+year <- params$year
 ```
 
 When you read a delimited file into R, it will become a data.frame.  This lesson will cover common operations performed on data.frames.  A data.frame has rows and columns and names for these rows and columns.  Each column is a vector containing values of a specified type, such as numeric or character values.  Rows or columns may be added (or removed) and data.frames may be merged together.
@@ -20,7 +24,6 @@ ncol(x)
 names(x)
 rownames(x)
 str(x)
-year <- 2022
 ```
 
 The following example will read in data projecting the `r year` statistics for NFL players.  These values can be used to generate how much players are worth for a fantasy football league.
@@ -98,8 +101,8 @@ which(x2[,'pos']=='qb')
 # which row contains the 12th best quarterback?
 which(x2[,'pos']=='qb')[12]
 
-# which row contains the 90th best quarterback?
-which(x2[,'pos']=='qb')[90]
+# which row contains the 75th best quarterback?
+which(x2[,'pos']=='qb')[75]
 
 # determine the row indeces for each position
 k.ix <- which(x2[,'pos']=='k')
