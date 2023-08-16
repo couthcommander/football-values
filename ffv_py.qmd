@@ -1,0 +1,196 @@
+---
+title: "Data Frame Intro Through Fantasy Football"
+author: "Cole"
+pdf-engine: pdflatex
+format:
+  html: default
+  pdf: default
+execute:
+  enabled: true
+jupyter: python3
+---
+
+```{python}
+from os import listdir
+from os import path
+from random import sample
+import re
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+def loadDat(filename):
+  fh = open(filename)
+  dat = pd.read_csv(fh)
+  fh.close()
+  return dat
+```
+
+```{python}
+year = 2023
+datadir = path.join('.', str(year))
+files = listdir(datadir)
+# need to exclude "current" data
+files = [i for i in files if 'proj' in i]
+patt = r'proj_(.*)' + str(year)[2:4] + '.csv'
+pos = [re.sub(patt, r'\1', f) for f in files]
+dat = {}
+cols = set()
+for p in pos:
+  dat[p] = loadDat(path.join(datadir, files[pos.index(p)]))
+  cols.update(set(dat[p].columns))
+for p in pos:
+  nr = len(dat[p].index)
+  nodat = [0 for i in range(nr)]
+  for i in cols.difference(set(dat[p].columns)):
+    dat[p][i] = nodat
+  dat[p] = dat[p][list(cols)]
+  dat[p]['pos'] = [p for i in range(nr)]
+col1 = ['PlayerName','Team','pos','fpts']
+colo = col1 + list(cols.difference(col1))
+m = pd.concat(dat)[colo]
+m['p_fg'] = m['fg'] * 4
+m['p_xpt'] = m['xpt'] * 1
+m['p_pass_yds'] = m['pass_yds'] / 25
+m['p_pass_tds'] = m['pass_tds'] * 4
+m['p_pass_ints'] = m['pass_ints'] * -2
+m['p_rush_yds'] = m['rush_yds'] / 10
+m['p_rush_tds'] = m['rush_tds'] * 6
+m['p_fumbles'] = m['fumbles'] * -2
+m['p_rec_yds'] = m['rec_yds'] / 20
+m['p_rec_tds'] = m['rec_tds'] * 6
+m['points'] = m.filter(regex = ("p_.*")).sum(axis = 1)
+m = m.sort_values(by=['points'], ascending = False)
+m.reset_index(level=1, drop = True, inplace = True)
+basePnt = {}
+basePnt['k'] = m.loc['k','points'][12*1-1]
+basePnt['qb'] = m.loc['qb','points'][12*1-1]
+basePnt['rb'] = m.loc['rb','points'][12*2-1]
+basePnt['te'] = m.loc['te','points'][12*1-1]
+basePnt['wr'] = m.loc['wr','points'][12*3-1]
+m['marg'] = m['points'] - [basePnt[i] for i in m['pos']]
+# alternative
+#m.loc['qb','marg'] = (m.loc['qb','points'] - m.loc[('qb',12),'points']).values
+d1 = m.loc[m['marg'] >= 0, ['PlayerName','pos','points','marg']]
+d2 = d1.sort_values(by=['marg'], ascending = False)
+d2['value'] = (12 * 200 - len(d2)) * d2['marg'] / sum(d2['marg']) + 1
+d3 = d2.reset_index(drop = True)
+```
+
+```{python}
+d3.head(6)
+```
+
+```{python}
+d3.tail(6)
+```
+
+```{python}
+plt.hist(np.hstack(d3['value']))
+plt.title('Projected Dollar Value')
+plt.show()
+```
+
+```{python}
+fig1, ax1 = plt.subplots()
+qbval = d3.loc[d3['pos'] == 'qb','value']
+rbval = d3.loc[d3['pos'] == 'rb','value']
+wrval = d3.loc[d3['pos'] == 'wr','value']
+teval = d3.loc[d3['pos'] == 'te','value']
+kval = d3.loc[d3['pos'] == 'k','value']
+data = [qbval, rbval, wrval, teval, kval]
+ax1.boxplot(data)
+plt.show()
+```
+
+```{python}
+# select rows by index
+d3.iloc[range(0,3)]
+```
+
+```{python}
+# select rows by name
+d3.loc[[9,19,39,79]]
+```
+
+```{python}
+# select columns by index, and first 10 rows
+d3.iloc[range(10),[0,4]]
+```
+
+```{python}
+# select columns by name, and 5 random rows
+d3.iloc[sample(range(len(d3)), 5), [d3.columns.get_loc(i) for i in ['pos','value']]]
+```
+
+```{python}
+# be careful when selecting a single column
+# no longer a DataFrame
+d3.iloc[range(5), d3.columns.get_loc('PlayerName')]
+```
+
+```{python}
+# maintain structure
+pd.DataFrame(d3.iloc[range(5), d3.columns.get_loc('PlayerName')])
+```
+
+```{python}
+# select rows that satisfy condition
+# every 10th row
+d3.loc[[(i + 1) % 10 == 0 for i in range(len(d3))]]
+```
+
+```{python}
+# quarterbacks
+d3.loc[d3['pos'] == 'qb']
+```
+
+```{python}
+# wide receivers or tight ends, but only first 10
+d3.loc[[i in ['wr','te'] for i in d3['pos']]].iloc[range(10)]
+```
+
+```{python}
+# same thing, different way
+d3.loc[[re.match(r'wr|te', i) is not None for i in d3['pos']]].iloc[range(10)]
+```
+
+```{python}
+# values greater than 45
+d3.loc[d3['value'] > 45]
+```
+
+```{python}
+# combining conditions with AND
+# running backs with value between 10 and 15
+d3.loc[(d3['pos'] == 'rb') & (d3['value'] >= 20) & (d3['value'] <= 25)]
+```
+
+```{python}
+# combining conditions with OR
+# rounded value ends in '9' or value is 1
+d3.loc[(round(d3['value']) % 10 == 9) | (d3['value'] == 1)]
+```
+
+```{python}
+# combining conditions with complicated combinations
+# kickers with value > 6 or tight end with value < 5
+k6 = (d3['pos'] == 'k') & (d3['value'] > 6)
+t5 = (d3['pos'] == 'te') & (d3['value'] < 5)
+d3.loc[k6 | t5]
+```
+
+```{python}
+# select columns that match pattern
+m.filter(regex = ("p_.*")).iloc[range(10)]
+```
+
+```{python}
+# select empty DataFrame
+d3.loc[[False] * len(d3)]
+```
+
+<!--
+quarto render ffv_py.qmd
+quarto render ffv_py.qmd --to pdf
+-->
