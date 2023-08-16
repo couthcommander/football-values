@@ -69,8 +69,6 @@ basePnt['rb'] = m.loc['rb','points'][12*2-1]
 basePnt['te'] = m.loc['te','points'][12*1-1]
 basePnt['wr'] = m.loc['wr','points'][12*3-1]
 m['marg'] = m['points'] - [basePnt[i] for i in m['pos']]
-# alternative
-#m.loc['qb','marg'] = (m.loc['qb','points'] - m.loc[('qb',12),'points']).values
 d1 = m.loc[m['marg'] >= 0, ['PlayerName','pos','points','marg']]
 d2 = d1.sort_values(by=['marg'], ascending = False)
 d2['value'] = (12 * 200 - len(d2)) * d2['marg'] / sum(d2['marg']) + 1
