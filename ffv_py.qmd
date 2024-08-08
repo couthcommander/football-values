@@ -27,7 +27,7 @@ def loadDat(filename):
 ```
 
 ```{python}
-year = 2023
+year = 2024
 datadir = path.join('.', str(year))
 files = listdir(datadir)
 # need to exclude "current" data
