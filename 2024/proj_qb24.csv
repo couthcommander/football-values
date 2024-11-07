@@ -1,91 +1,91 @@
 PlayerName,Team,pass_att,pass_cmp,pass_yds,pass_tds,pass_ints,rush_att,rush_yds,rush_tds,fumbles,fpts
-Jalen Hurts PHI,Jalen Hurts PHI,520.1,339.7,3811.1,24.4,12.3,145.6,625,11.3,3.8,360.4
-Josh Allen BUF,Josh Allen BUF,559.5,364.5,4029.2,27.6,14.2,107.4,546.6,8.9,4,357.1
-Patrick Mahomes II KC,Patrick Mahomes II KC,584.4,392.1,4371.1,32.5,11.4,72.3,376.7,1.8,3.1,335.7
-Lamar Jackson BAL,Lamar Jackson BAL,464.6,304.1,3570.9,25.1,10.8,138.6,800.1,5.1,4.1,335.2
-Dak Prescott DAL,Dak Prescott DAL,574.5,386.4,4239,31.1,12.2,51.9,222.3,2,2.8,310.4
-Anthony Richardson IND,Anthony Richardson IND,511.9,326.2,3507.5,19.9,11.4,127.5,646,7.8,5,310
-C.J. Stroud HOU,C.J. Stroud HOU,556,361.8,4329.9,29.4,10.1,43.8,184.2,2.3,3.6,306.1
-Joe Burrow CIN,Joe Burrow CIN,580.8,389.6,4230,30.3,11.5,56.7,192.4,2.2,3.1,305.5
-Kyler Murray ARI,Kyler Murray ARI,530.2,353.2,3679.2,21.8,12.3,96.1,521.2,4.9,2.6,298.7
-Brock Purdy SF,Brock Purdy SF,498.4,336.3,4075.6,29.6,11,44.7,163.6,2,2.6,293.4
-Jordan Love GB,Jordan Love GB,543.1,353.5,3974.5,29.2,11.6,46.1,202.5,2.5,3,292.9
-Trevor Lawrence JAC,Trevor Lawrence JAC,566,373,3979.5,24.3,12.7,66.1,306.5,3.5,4.8,285.6
-Jayden Daniels WAS,Jayden Daniels WAS,538.3,337.9,3557.8,20,14.6,109.5,575.1,4.4,4.4,282.4
-Caleb Williams CHI,Caleb Williams CHI,539.8,351.2,3802.4,24.7,14.2,69.5,325.6,3.1,4,279.8
-Justin Herbert LAC,Justin Herbert LAC,544.2,356.4,3851.8,24.6,9.7,65.8,267,2.7,3,279.6
-Jared Goff DET,Jared Goff DET,568.4,383.6,4229.6,28.1,10.8,24.6,55.6,1.1,3.1,276.8
-Deshaun Watson CLE,Deshaun Watson CLE,538.6,330.8,3713.7,22.7,13.5,76.8,380.3,3.2,3.8,275.2
-Tua Tagovailoa MIA,Tua Tagovailoa MIA,545.3,370.8,4269.1,27.2,12.7,31.8,88.8,0.6,3.8,271.9
-Baker Mayfield TB,Baker Mayfield TB,562,355.5,3946.5,25.7,11.9,52.1,171.3,1.5,3.3,268.2
-Kirk Cousins ATL,Kirk Cousins ATL,534.4,351,4024.7,27,10.5,33.9,99.6,1.4,4.5,268.2
-Matthew Stafford LAR,Matthew Stafford LAR,552.5,354.8,4122.2,26.8,12.7,23.4,66.2,0.6,2.2,265.1
-Aaron Rodgers NYJ,Aaron Rodgers NYJ,545.6,360.7,3832.7,26.1,9.2,33.2,109.8,1.3,2.7,262
-Geno Smith SEA,Geno Smith SEA,522.3,342.4,3755.1,24.1,12.1,50.6,203.8,1.5,3.1,257.9
-Derek Carr NO,Derek Carr NO,544.6,363.8,3848.5,25,11.1,24.7,71.2,0.5,3.2,246.3
-Will Levis TEN,Will Levis TEN,511,320.7,3704.1,21.6,12.8,54.5,186.8,2.2,4.2,245.4
-Daniel Jones NYG,Daniel Jones NYG,494.2,322.7,3224.1,16.6,10.8,95,469.3,3.5,3.6,245.2
-Russell Wilson PIT,Russell Wilson PIT,438.3,279.1,3048.5,18.8,9.8,65.9,311.4,2.6,3.5,227.4
-Bryce Young CAR,Bryce Young CAR,531.7,333.6,3454.3,19.2,12.1,43,237.2,1.2,3.5,226.9
-Bo Nix DEN,Bo Nix DEN,470.3,292.8,2986.3,17.6,11.5,59.6,265.1,2.4,3.2,212.9
-J.J. McCarthy MIN,J.J. McCarthy MIN,381.2,243.8,2801.8,16.8,10.5,30.2,179,1.6,2.8,190.6
-Drake Maye NE,Drake Maye NE,366.5,232.1,2664.1,14.2,11.2,45.7,221.6,1.8,2.5,180.3
-Gardner Minshew II LV,Gardner Minshew II LV,331,208,2220.3,12.7,8.4,26.8,93.3,1.4,1.9,145
-Aidan O'Connell LV,Aidan O'Connell LV,240,151.1,1587.7,8.6,6.3,20.2,50.7,0.5,2,95.9
-Sam Darnold MIN,Sam Darnold MIN,223.4,140.1,1348,7.9,5,19.2,63.1,0.9,0.7,91
-Justin Fields PIT,Justin Fields PIT,107.3,65.7,744.8,4.1,3.1,40.8,212.8,1.3,1.2,70
-Jacoby Brissett NE,Jacoby Brissett NE,183.7,118.1,1077.8,5.7,3.9,16.9,59,0.3,1.1,67.6
-Taysom Hill NO,Taysom Hill NO,5,4,54,0,0,80,351.5,4.5,0.5,63.3
-Jarrett Stidham DEN,Jarrett Stidham DEN,97.5,61.2,700.1,4.2,3,11.8,39.9,0.3,0.6,46.3
-Sam Howell SEA,Sam Howell SEA,73.1,47,496.8,3.1,2.2,8,39,0.4,0.5,35.4
-Drew Lock NYG,Drew Lock NYG,74,46.5,505,3.3,1.8,7.9,25,0.1,0.6,34
-Jake Browning CIN,Jake Browning CIN,50.5,32.7,376.8,2.7,1.5,5.6,26.8,0.2,0.2,27.5
-Michael Penix Jr. ATL,Michael Penix Jr. ATL,42.5,26,334.9,2.5,1.3,3.4,21,0.4,0.5,25.6
-Josh Johnson BAL,Josh Johnson BAL,42.7,26.7,294.2,1.9,0.9,8.9,37,0.3,0.3,23
-Hendon Hooker DET,Hendon Hooker DET,68.2,44.2,327.4,1.9,1.4,6.1,25.9,0.2,0.3,22.6
-Kenny Pickett PHI,Kenny Pickett PHI,43.8,28.5,329.6,2,1.2,7.1,24.5,0.2,0.5,22.4
-Sean Clifford GB,Sean Clifford GB,50.7,32,309.8,2.2,1.2,6.5,17.8,0.1,0.3,21.5
-Mitchell Trubisky BUF,Mitchell Trubisky BUF,45.6,29.6,269.8,2,1.3,8,25.8,0.3,0.2,21.5
-Jimmy Garoppolo LAR,Jimmy Garoppolo LAR,46.5,30.1,315.4,2.1,1.2,3.8,10.6,0,0.1,21
-Carson Wentz KC,Carson Wentz KC,48.5,30.8,289.4,2.1,1.3,5.2,19.4,0.1,0.2,20.8
-Case Keenum HOU,Case Keenum HOU,51.9,32.3,301.1,2.2,1.3,4,12.1,0.1,0.3,20.6
-Mason Rudolph TEN,Mason Rudolph TEN,57.4,34.9,332.1,1.8,1.3,5.3,13.5,0.1,0.3,20.4
-Joshua Dobbs SF,Joshua Dobbs SF,40.6,26.9,266.8,1.8,0.9,6,27.8,0.2,0.2,20.4
-Tyson Bagent CHI,Tyson Bagent CHI,46.5,30.1,293.6,1.7,1.2,4.9,24.1,0.1,0.2,20.2
-Jameis Winston CLE,Jameis Winston CLE,48,29.6,307.9,1.9,1.5,5.6,18.3,0.1,0.1,20.2
-Desmond Ridder ARI,Desmond Ridder ARI,48.2,30.9,329.2,1.8,1.4,5.8,21.1,0.1,0.9,20.1
-Cooper Rush DAL,Cooper Rush DAL,48.2,30.5,297.9,2,1.3,5.7,11,0.1,0.2,19.6
-Marcus Mariota WAS,Marcus Mariota WAS,44.5,27.7,282.4,1.5,1.2,6.5,30.8,0.1,0.2,19.5
-Tyrod Taylor NYJ,Tyrod Taylor NYJ,43.9,27.5,269.7,1.8,1,5.5,23.5,0,0.2,19.4
-Joe Flacco IND,Joe Flacco IND,48.8,30.7,317.3,1.8,1.1,5,13.3,0,0.5,19.3
-Mac Jones JAC,Mac Jones JAC,46.7,31.4,290.6,1.7,1.3,5.4,19,0,0.1,18.9
-Easton Stick LAC,Easton Stick LAC,43.2,26.4,261.8,1.7,0.9,6.1,24.1,0.1,0.2,18.6
-Kyle Trask TB,Kyle Trask TB,44.7,26.9,264.4,1.7,0.9,5.5,13.5,0.1,0.2,18.1
-Andy Dalton CAR,Andy Dalton CAR,45.4,28.6,272.2,1.6,0.9,4.7,16.7,0.1,0.1,18
-Mike White MIA,Mike White MIA,47.2,30.1,293.1,1.5,1.4,4.2,8.5,0.1,0.2,17.1
-Spencer Rattler NO,Spencer Rattler NO,41.7,27.2,230.1,1.6,0.5,3.8,14.1,0.1,0.2,16.7
-Tyler Huntley CLE,Tyler Huntley CLE,0,0,202,1,1,0,24,0,0,13.5
-Zach Wilson DEN,Zach Wilson DEN,0,0,200,1,1,0,17,0,0,12.7
-Jaren Hall MIN,Jaren Hall MIN,0,0,174,1,1,0,26,0,0,12.6
-Bailey Zappe NE,Bailey Zappe NE,0,0,200,1,1,0,15,0,0,12.5
-Malik Willis TEN,Malik Willis TEN,0,0,168,1,1,0,26,0,0,12.3
-Tommy DeVito NYG,Tommy DeVito NYG,0,0,190,1,1,0,17,0,0,12.3
-Nick Mullens MIN,Nick Mullens MIN,0,0,210,1,1,0,9,0,0,12.3
-Davis Mills HOU,Davis Mills HOU,22,13,184.5,1,0.5,4,13.5,0,0,12.2
-C.J. Beathard JAC,C.J. Beathard JAC,0,0,186,1,1,0,15,0,0,11.9
-Trey Lance DAL,Trey Lance DAL,24,15,177,1,1,5,18.5,0,0,11.9
-Kyle Allen PIT,Kyle Allen PIT,0,0,186,1,1,0,13,0,0,11.7
-Jordan Travis NYJ,Jordan Travis NYJ,0,0,188,1,1,0,10,0,0,11.5
-Skylar Thompson MIA,Skylar Thompson MIA,0,0,161,1,1,0,20,0,0,11.4
-Taylor Heinicke ATL,Taylor Heinicke ATL,0,0,220,1,1,0,14,0,1,11.2
-Clayton Tune ARI,Clayton Tune ARI,0,0,180,1,1,0,7,0,0,10.9
-Michael Pratt GB,Michael Pratt GB,16,11,156,1,0.5,2,10,0,0,10.7
-Joe Milton III NE,Joe Milton III NE,0,0,190,1,1,0,17,0,1,10.3
-Nathan Rourke ATL,Nathan Rourke ATL,16,10,124,1,0,2,10,0,0,10
-Stetson Bennett LAR,Stetson Bennett LAR,0,0,92,1,0,0,13,0,0,9
-Carter Bradley LV,Carter Bradley LV,16,10,107,1,0,2,7,0,0,9
-Sam Hartman WAS,Sam Hartman WAS,0,0,100,1,0,0,7,0,0,8.7
-Tanner McKee PHI,Tanner McKee PHI,0,0,80,1,0,0,8,0,0,8
-Sam Ehlinger IND,Sam Ehlinger IND,0,0,76,1,0,0,8,0,0,7.8
-Dorian Thompson-Robinson CLE,Dorian Thompson-Robinson CLE,0,0,87,0,0,0,13,0,0,4.8
-Devin Leary BAL,Devin Leary BAL,0,0,65,0,0,0,0,0,0,2.6
+Jalen Hurts,PHI,520.1,339.7,3811.1,24.4,12.3,145.6,625,11.3,3.8,360.4
+Josh Allen,BUF,559.5,364.5,4029.2,27.6,14.2,107.4,546.6,8.9,4,357.1
+Patrick Mahomes II,KC,584.4,392.1,4371.1,32.5,11.4,72.3,376.7,1.8,3.1,335.7
+Lamar Jackson,BAL,464.6,304.1,3570.9,25.1,10.8,138.6,800.1,5.1,4.1,335.2
+Dak Prescott,DAL,574.5,386.4,4239,31.1,12.2,51.9,222.3,2,2.8,310.4
+Anthony Richardson,IND,511.9,326.2,3507.5,19.9,11.4,127.5,646,7.8,5,310
+C.J. Stroud,HOU,556,361.8,4329.9,29.4,10.1,43.8,184.2,2.3,3.6,306.1
+Joe Burrow,CIN,580.8,389.6,4230,30.3,11.5,56.7,192.4,2.2,3.1,305.5
+Kyler Murray,ARI,530.2,353.2,3679.2,21.8,12.3,96.1,521.2,4.9,2.6,298.7
+Brock Purdy,SF,498.4,336.3,4075.6,29.6,11,44.7,163.6,2,2.6,293.4
+Jordan Love,GB,543.1,353.5,3974.5,29.2,11.6,46.1,202.5,2.5,3,292.9
+Trevor Lawrence,JAC,566,373,3979.5,24.3,12.7,66.1,306.5,3.5,4.8,285.6
+Jayden Daniels,WAS,538.3,337.9,3557.8,20,14.6,109.5,575.1,4.4,4.4,282.4
+Caleb Williams,CHI,539.8,351.2,3802.4,24.7,14.2,69.5,325.6,3.1,4,279.8
+Justin Herbert,LAC,544.2,356.4,3851.8,24.6,9.7,65.8,267,2.7,3,279.6
+Jared Goff,DET,568.4,383.6,4229.6,28.1,10.8,24.6,55.6,1.1,3.1,276.8
+Deshaun Watson,CLE,538.6,330.8,3713.7,22.7,13.5,76.8,380.3,3.2,3.8,275.2
+Tua Tagovailoa,MIA,545.3,370.8,4269.1,27.2,12.7,31.8,88.8,0.6,3.8,271.9
+Baker Mayfield,TB,562,355.5,3946.5,25.7,11.9,52.1,171.3,1.5,3.3,268.2
+Kirk Cousins,ATL,534.4,351,4024.7,27,10.5,33.9,99.6,1.4,4.5,268.2
+Matthew Stafford,LAR,552.5,354.8,4122.2,26.8,12.7,23.4,66.2,0.6,2.2,265.1
+Aaron Rodgers,NYJ,545.6,360.7,3832.7,26.1,9.2,33.2,109.8,1.3,2.7,262
+Geno Smith,SEA,522.3,342.4,3755.1,24.1,12.1,50.6,203.8,1.5,3.1,257.9
+Derek Carr,NO,544.6,363.8,3848.5,25,11.1,24.7,71.2,0.5,3.2,246.3
+Will Levis,TEN,511,320.7,3704.1,21.6,12.8,54.5,186.8,2.2,4.2,245.4
+Daniel Jones,NYG,494.2,322.7,3224.1,16.6,10.8,95,469.3,3.5,3.6,245.2
+Russell Wilson,PIT,438.3,279.1,3048.5,18.8,9.8,65.9,311.4,2.6,3.5,227.4
+Bryce Young,CAR,531.7,333.6,3454.3,19.2,12.1,43,237.2,1.2,3.5,226.9
+Bo Nix,DEN,470.3,292.8,2986.3,17.6,11.5,59.6,265.1,2.4,3.2,212.9
+J.J. McCarthy,MIN,381.2,243.8,2801.8,16.8,10.5,30.2,179,1.6,2.8,190.6
+Drake Maye,NE,366.5,232.1,2664.1,14.2,11.2,45.7,221.6,1.8,2.5,180.3
+Gardner Minshew II,LV,331,208,2220.3,12.7,8.4,26.8,93.3,1.4,1.9,145
+Aidan O'Connell,LV,240,151.1,1587.7,8.6,6.3,20.2,50.7,0.5,2,95.9
+Sam Darnold,MIN,223.4,140.1,1348,7.9,5,19.2,63.1,0.9,0.7,91
+Justin Fields,PIT,107.3,65.7,744.8,4.1,3.1,40.8,212.8,1.3,1.2,70
+Jacoby Brissett,NE,183.7,118.1,1077.8,5.7,3.9,16.9,59,0.3,1.1,67.6
+Taysom Hill,NO,5,4,54,0,0,80,351.5,4.5,0.5,63.3
+Jarrett Stidham,DEN,97.5,61.2,700.1,4.2,3,11.8,39.9,0.3,0.6,46.3
+Sam Howell,SEA,73.1,47,496.8,3.1,2.2,8,39,0.4,0.5,35.4
+Drew Lock,NYG,74,46.5,505,3.3,1.8,7.9,25,0.1,0.6,34
+Jake Browning,CIN,50.5,32.7,376.8,2.7,1.5,5.6,26.8,0.2,0.2,27.5
+Michael Penix Jr.,ATL,42.5,26,334.9,2.5,1.3,3.4,21,0.4,0.5,25.6
+Josh Johnson,BAL,42.7,26.7,294.2,1.9,0.9,8.9,37,0.3,0.3,23
+Hendon Hooker,DET,68.2,44.2,327.4,1.9,1.4,6.1,25.9,0.2,0.3,22.6
+Kenny Pickett,PHI,43.8,28.5,329.6,2,1.2,7.1,24.5,0.2,0.5,22.4
+Sean Clifford,GB,50.7,32,309.8,2.2,1.2,6.5,17.8,0.1,0.3,21.5
+Mitchell Trubisky,BUF,45.6,29.6,269.8,2,1.3,8,25.8,0.3,0.2,21.5
+Jimmy Garoppolo,LAR,46.5,30.1,315.4,2.1,1.2,3.8,10.6,0,0.1,21
+Carson Wentz,KC,48.5,30.8,289.4,2.1,1.3,5.2,19.4,0.1,0.2,20.8
+Case Keenum,HOU,51.9,32.3,301.1,2.2,1.3,4,12.1,0.1,0.3,20.6
+Mason Rudolph,TEN,57.4,34.9,332.1,1.8,1.3,5.3,13.5,0.1,0.3,20.4
+Joshua Dobbs,SF,40.6,26.9,266.8,1.8,0.9,6,27.8,0.2,0.2,20.4
+Tyson Bagent,CHI,46.5,30.1,293.6,1.7,1.2,4.9,24.1,0.1,0.2,20.2
+Jameis Winston,CLE,48,29.6,307.9,1.9,1.5,5.6,18.3,0.1,0.1,20.2
+Desmond Ridder,ARI,48.2,30.9,329.2,1.8,1.4,5.8,21.1,0.1,0.9,20.1
+Cooper Rush,DAL,48.2,30.5,297.9,2,1.3,5.7,11,0.1,0.2,19.6
+Marcus Mariota,WAS,44.5,27.7,282.4,1.5,1.2,6.5,30.8,0.1,0.2,19.5
+Tyrod Taylor,NYJ,43.9,27.5,269.7,1.8,1,5.5,23.5,0,0.2,19.4
+Joe Flacco,IND,48.8,30.7,317.3,1.8,1.1,5,13.3,0,0.5,19.3
+Mac Jones,JAC,46.7,31.4,290.6,1.7,1.3,5.4,19,0,0.1,18.9
+Easton Stick,LAC,43.2,26.4,261.8,1.7,0.9,6.1,24.1,0.1,0.2,18.6
+Kyle Trask,TB,44.7,26.9,264.4,1.7,0.9,5.5,13.5,0.1,0.2,18.1
+Andy Dalton,CAR,45.4,28.6,272.2,1.6,0.9,4.7,16.7,0.1,0.1,18
+Mike White,MIA,47.2,30.1,293.1,1.5,1.4,4.2,8.5,0.1,0.2,17.1
+Spencer Rattler,NO,41.7,27.2,230.1,1.6,0.5,3.8,14.1,0.1,0.2,16.7
+Tyler Huntley,CLE,0,0,202,1,1,0,24,0,0,13.5
+Zach Wilson,DEN,0,0,200,1,1,0,17,0,0,12.7
+Jaren Hall,MIN,0,0,174,1,1,0,26,0,0,12.6
+Bailey Zappe,NE,0,0,200,1,1,0,15,0,0,12.5
+Malik Willis,TEN,0,0,168,1,1,0,26,0,0,12.3
+Tommy DeVito,NYG,0,0,190,1,1,0,17,0,0,12.3
+Nick Mullens,MIN,0,0,210,1,1,0,9,0,0,12.3
+Davis Mills,HOU,22,13,184.5,1,0.5,4,13.5,0,0,12.2
+C.J. Beathard,JAC,0,0,186,1,1,0,15,0,0,11.9
+Trey Lance,DAL,24,15,177,1,1,5,18.5,0,0,11.9
+Kyle Allen,PIT,0,0,186,1,1,0,13,0,0,11.7
+Jordan Travis,NYJ,0,0,188,1,1,0,10,0,0,11.5
+Skylar Thompson,MIA,0,0,161,1,1,0,20,0,0,11.4
+Taylor Heinicke,ATL,0,0,220,1,1,0,14,0,1,11.2
+Clayton Tune,ARI,0,0,180,1,1,0,7,0,0,10.9
+Michael Pratt,GB,16,11,156,1,0.5,2,10,0,0,10.7
+Joe Milton III,NE,0,0,190,1,1,0,17,0,1,10.3
+Nathan Rourke,ATL,16,10,124,1,0,2,10,0,0,10
+Stetson Bennett,LAR,0,0,92,1,0,0,13,0,0,9
+Carter Bradley,LV,16,10,107,1,0,2,7,0,0,9
+Sam Hartman,WAS,0,0,100,1,0,0,7,0,0,8.7
+Tanner McKee,PHI,0,0,80,1,0,0,8,0,0,8
+Sam Ehlinger,IND,0,0,76,1,0,0,8,0,0,7.8
+Dorian Thompson-Robinson,CLE,0,0,87,0,0,0,13,0,0,4.8
+Devin Leary,BAL,0,0,65,0,0,0,0,0,0,2.6
